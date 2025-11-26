@@ -1,0 +1,22 @@
+StringBuilder Methods
+---------------------
+1. public int length():
+return the numbers of characters present in the StringBuilder
+
+2. public int Capacity();
+return the total number of characters in StringBuilder can accommodate(hold).
+
+3. public char charAt(int index):
+4. public void setCharAt(int index, char ch);
+5. public StringBuilder delete(int begin, int end);
+to delete characters from begin index to end-1 index.
+6. public StringBuilder deleteCharAt(int index);
+7. public StringBuilder reverse();
+8. public void setLength(int length);
+consider only specified no of characters and remove all the remaining characters.
+9. public void trimToSize();
+10. deallocate the extra allocated free memory such as capacity and size are equal
+===================================================================================
+StringBuffer vs StringBuilder
+
+Every method present inside StringBuffer is Syncronized. No method present in StringBuilder is synchronized.
